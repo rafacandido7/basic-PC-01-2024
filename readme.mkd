@@ -1,0 +1,53 @@
+# Crivo de Eratóstenes em QB64
+
+Este projeto contém um programa em QB64 que implementa o Crivo de Eratóstenes para verificar se um número informado pelo usuário é primo e listar os números primos até esse número, caso não seja.
+
+## Pré-requisitos
+
+- [QB64](https://www.qb64.dev/) instalado em seu sistema. O QB64 é uma versão moderna do QuickBASIC que permite compilar e executar programas em BASIC.
+
+## Código
+
+O código implementa o Crivo de Eratóstenes da seguinte maneira:
+
+1. **Inicialização**: Um array é criado para armazenar se os números de 2 a 100 são primos.
+2. **Crivo de Eratóstenes**: Os números são marcados como primos ou não, eliminando os múltiplos de cada número primo encontrado.
+3. **Entrada do Usuário**: O programa solicita ao usuário que insira um número entre 1 e 100.
+4. **Verificação de Primo**: O programa verifica se o número é primo e, se não for, lista todos os números primos até o número informado.
+
+## Como Executar
+
+1. **Clone ou baixe este repositório**:
+   ```bash
+   git clone https://github.com/rafacandido7/basic-PC-01-2024
+   cd basic-PC-01-2024
+   ```
+
+2. **Abra o QB64**:
+   - Inicie o QB64 no seu computador.
+
+3. **Carregue o Código**:
+   - Copie o código fornecido (ou baixe o arquivo `.bas` do repositório) e cole no editor do QB64.
+
+4. **Compile e Execute**:
+   - No menu do QB64, clique em `Run` (F5) para executar o programa.
+   - O programa solicitará que você insira um número.
+
+5. **Interaja com o Programa**:
+   - Insira um número entre 1 e 100.
+   - O programa informará se o número é primo ou não e, se não for, exibirá os números primos até o número informado.
+
+## Exemplo de Saída
+
+``` bash
+Digite um número entre 1 e 100:
+25
+25 não é um número primo.
+Números primos até 25:
+2 3 5 7 11 13 17 19 23
+```
+
+
+## Vídeo Explicativo
+
+- Link para o [video](https://youtu.be/78vKqjiJbqw)
